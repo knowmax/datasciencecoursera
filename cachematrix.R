@@ -3,6 +3,8 @@
 
 ## Write a short comment describing this function
 
+## This function is used to cahing a matrix
+
 
 makeCacheMatrix<-function(x = matrix()) {
   m <- NULL
@@ -21,6 +23,8 @@ makeCacheMatrix<-function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+
+## This function is used to calculate inverse of a matrix via cache.
 
 cacheSolve <- function(x, ...) {
   m <- x$get()
