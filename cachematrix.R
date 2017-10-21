@@ -3,6 +3,8 @@
 
 ## Write a short comment describing this function
 
+## This is make inverse of  matric in cache
+
 
 makeCacheMatrix<-function(x = matrix()) {
   m <- NULL
